@@ -1,0 +1,95 @@
+.trigger {
+    vertical-align: -webkit-baseline-middle;
+    color: white;
+    padding-left: 15px;
+    padding-right:15px;
+    font-size: 30px;
+    line-height: 64px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.trigger:hover {
+    color: #1890ff;
+}
+
+.nav_arrow{
+    vertical-align: middle;
+    color: white;   
+    font-size: 30px;
+    margin: 5px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.nav_arrow:hover{
+    color: #1890ff;
+}
+
+.arrow:hover {
+    color: #1890ff;
+}
+
+.logo {
+    height: 32px;
+    margin: 16px;
+    overflow: hidden
+}
+
+.logo svg{
+    fill: white;
+    margin-left:9px;
+    width: 32px;
+    height: 32px;
+}
+
+.logo h1{
+    vertical-align: middle;
+    display: inline-block;
+    color: white;
+    margin-bottom: 25px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.site-layout .site-layout-background {
+    background: #fff;
+}
+
+.header-right{
+    float: right; 
+}
+
+@import '~antd/dist/antd.css';
+
+.ant-menu{
+    background-color: #040404;
+}
+
+.ant-menu-item{
+    color: white;
+}
+
+.ant-menu-item a{
+    color: white;
+}
+
+.ant-menu:not(.ant-menu-horizontal) .ant-menu-item-selected{
+    background-color: white;
+}
+
+.ant-menu-item:hover{
+    color:#1890ff
+}
+
+.ant-menu-item a:hover{
+    color:#1890ff
+}
+
+.ant-menu-item-selected{
+    color: black;
+}
+
+.ant-menu-item-selected a{
+    color: black;
+}
